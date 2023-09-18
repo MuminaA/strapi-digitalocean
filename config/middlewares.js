@@ -12,22 +12,22 @@
 module.exports = [
   'strapi::errors',
   'strapi::security',
-  {
-    name: 'strapi::cors',
-    config: {
-      origin: [
-        'http://localhost:3000',
-        'https://glittery-dango-ab5a6d.netlify.app',
-      ],
-    },
-  },
-  // 'strapi::cors',
   // {
   //   name: 'strapi::cors',
   //   config: {
-  //     origin: ['http://localhost:3000', 'https://glittery-dango-ab5a6d.netlify.app']
-  //   }
+  //     origin: [
+  //       'http://localhost:3000',
+  //       'https://glittery-dango-ab5a6d.netlify.app',
+  //     ],
+  //   },
   // },
+  'strapi::cors',
+  {
+    name: 'strapi::cors',
+    config: {
+      origin: ['http://localhost:3000', 'https://glittery-dango-ab5a6d.netlify.app']
+    }
+  },
   'strapi::poweredBy',
   'strapi::logger',
   'strapi::query',
