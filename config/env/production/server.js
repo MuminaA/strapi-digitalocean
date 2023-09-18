@@ -12,6 +12,6 @@ module.exports = ({ env }) => ({
     },
   },
   cors: {
-    origin: ["https://glittery-dango-ab5a6d.netlify.app"],
+    origin: ['http://localhost:3000', "https://*.netlify.app"],
   },
 });
