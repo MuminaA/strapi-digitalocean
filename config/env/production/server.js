@@ -11,4 +11,7 @@ module.exports = ({ env }) => ({
       secret: env("ADMIN_JWT_SECRET"),
     },
   },
+  cors: {
+    origin: ["https://glittery-dango-ab5a6d.netlify.app"],
+  },
 });
