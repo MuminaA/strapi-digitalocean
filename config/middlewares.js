@@ -4,7 +4,7 @@ module.exports = {
   settings: {
     cors: {
       enabled: true,
-      origin: ['http://localhost:3000', "https://*.netlify.app"], // Replace with your frontend URL
+      origin: ['http://localhost:3000', "https://glittery-dango-ab5a6d.netlify.app"], // Replace with your frontend URL
     },
   },
 };
