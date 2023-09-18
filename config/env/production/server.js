@@ -11,7 +11,7 @@ module.exports = ({ env }) => ({
       secret: env("ADMIN_JWT_SECRET"),
     },
   },
-  cors: {
-    origin: ['http://localhost:3000', "https://*.netlify.app"],
-  },
+  // cors: {
+  //   origin: ['http://localhost:3000', "https://*.netlify.app"],
+  // },
 });
