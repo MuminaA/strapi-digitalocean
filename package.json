@@ -19,7 +19,7 @@
     "pg": "^8.11.3",
     "pg-connection-string": "^2.6.2",
     "stripe": "^12.9.0",
-    "timers/promises": "^0.1.1"
+    "timers-promises": "^0.1.1"
   },
   "author": {
     "name": "A Strapi developer"
@@ -29,7 +29,7 @@
   },
   "engines": {
     "node": "14.19.1",
-    "npm": ">=6.0.0"
+    "npm": "6.14.16"
   },
   "license": "MIT"
 }
