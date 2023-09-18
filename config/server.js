@@ -1,5 +1,5 @@
 require('dotenv').config()
-const stripeSecret = process.env.STRIPE_SECRET_KEY;
+const stripeSecret = process.env.STRIPE_KEY;
 
 module.exports = ({ env }) => ({
   host: env('HOST', '0.0.0.0'),
