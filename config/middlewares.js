@@ -23,6 +23,7 @@ module.exports = [
   // },
   'strapi::cors',
   {
+    name: 'strapi::cors',
     config: {
       // origin: ['http://localhost:3000', 'https://glittery-dango-ab5a6d.netlify.app']
       origin:['*']
